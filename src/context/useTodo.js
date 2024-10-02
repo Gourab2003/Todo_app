@@ -1,6 +1,6 @@
 import {createContext, useContext} from 'react'
 
-export const TodoContext = createContext({
+const TodoContext = createContext({
     todos:[],
     addTodo: (todo)=>{},
     updateTodo: (id, todo)=>{},
