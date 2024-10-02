@@ -16,15 +16,15 @@ function AddTodo() {
   return (
      <Form onSubmit={handleSubmit}>
       <InputGroup>
-        <Button type="submit" variant="primary" id="button-addon1">
-          Add
-        </Button>
         <Form.Control
           type="text"
           value={todoText}
           onChange={(e) => setTodoText(e.target.value)}
           placeholder="Add a new todo"
         />
+         <Button type="submit" variant="primary" id="button-addon1">
+          Add
+        </Button>
       </InputGroup>
     </Form>
   )
