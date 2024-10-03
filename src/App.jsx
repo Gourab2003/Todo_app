@@ -43,7 +43,7 @@ function App() {
         <div className="container">
           <div className="quote-section">
             <h2 className="quote">
-              "Organizing your time is key to unlocking your productivity. Writing down your tasks is the first step."
+              Organizing your time is key to unlocking your productivity. Writing down your tasks is the first step.
             </h2>
           </div>
           <div className="todo-list-gap" style={{ marginBottom: '65px' }}></div>

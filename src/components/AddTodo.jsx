@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button, InputGroup, Row, Col } from 'react-bootstrap';
+import { Form, Button, Row, Col } from 'react-bootstrap';
 import { useTodo } from '../context/useTodo';
 
 function AddTodo() {
